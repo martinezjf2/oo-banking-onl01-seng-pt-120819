@@ -36,7 +36,7 @@ end
     sender.balance -= @amount
     receiver.balance += @amount
   else
-    @status == '=reversed'
+    @status == 'reversed'
   end
 
   end
